@@ -1,0 +1,15 @@
+[project]
+name = "sports-betting-aggregator"
+version = "0.1.0"
+description = "Automated sports betting pick aggregator"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "agentql>=1.11.2",
+    "playwright>=1.52.0",
+    "openai>=1.86.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
